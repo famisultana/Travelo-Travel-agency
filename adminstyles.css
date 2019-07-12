@@ -1,0 +1,88 @@
+div {
+	display: block;
+}
+
+.images {
+	width: 90%;
+	display: grid;
+	grid-template-columns: 30% 30% 30%;
+	justify-content: space-around;
+}
+
+.images img {
+	width: 100%;
+}
+
+input[type="file"] {
+    display: none;
+}
+
+.details {
+	width: 90%;
+	display: grid;
+	grid-template-columns: 45% 45%;
+	justify-content: space-around;
+}
+
+.inclusions {
+	width: 90%;
+	display: grid;
+	grid-template-columns: 50% 50%;
+	justify-content: space-around;
+}
+
+.admin-form input {
+	width: 80%;
+	margin:10px;
+	padding: 5px 10px 5px 10px;
+	border-radius: 15px;
+	border: 1px solid black;
+	outline: none;
+	overflow: auto;
+}
+
+.admin-form textarea {
+	width: 80%;
+	height: 50px;
+	padding: 10px;
+	border-radius: 15px;
+	border: 1px solid black;
+	overflow: auto;
+	resize: none;
+	margin: 10px;
+	outline: none;
+}
+
+.admin-form label {
+	display: block;
+	font-family: Arial;
+	font-size: 16px;
+	margin-top: 10px;
+
+}
+
+input:focus {
+	border-color: #0e3bb7;
+}
+
+textarea:focus {
+	border-color: #0e3bb7;
+}
+
+.buttons input{
+	margin: 15px;
+	width: 100px;
+	padding: 5px;
+	color: white;
+	background-color: #0e3bb7;
+	outline: none;
+	border: 1px solid white;
+	transition-duration: 0.4s;
+}
+
+.buttons input:hover {
+	color: #0e3bb7;
+	background-color: white;
+	border-color: #0e3bb7;
+	cursor: pointer;
+}
